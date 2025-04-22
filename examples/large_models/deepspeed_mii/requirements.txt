@@ -1,3 +1,4 @@
 transformers
 deepspeed-mii
 numpy
+torch>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability

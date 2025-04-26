@@ -21,3 +21,4 @@ googleapis-common-protos
 onnx==1.16.0
 orjson
 datasets
+torch>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability

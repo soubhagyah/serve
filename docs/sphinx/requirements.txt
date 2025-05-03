@@ -15,3 +15,4 @@ captum
 torchtext
 pytest
 -e git+https://github.com/pytorch/pytorch_sphinx_theme.git#egg=pytorch_sphinx_theme
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability

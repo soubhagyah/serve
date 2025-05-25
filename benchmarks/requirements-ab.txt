@@ -9,3 +9,4 @@ mdutils==1.4.0
 ruamel.yaml
 locust
 locust_plugins
+flask-cors>=6.0.0 # not directly required, pinned by Snyk to avoid a vulnerability

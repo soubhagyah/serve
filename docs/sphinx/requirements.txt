@@ -15,3 +15,4 @@ captum
 torchtext
 pytest
 -e git+https://github.com/pytorch/pytorch_sphinx_theme.git#egg=pytorch_sphinx_theme
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability

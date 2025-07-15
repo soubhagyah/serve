@@ -1,3 +1,4 @@
 transformers==4.40.0
 tokenizers==0.19.1
 sentencepiece
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability

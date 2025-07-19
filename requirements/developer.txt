@@ -21,3 +21,4 @@ googleapis-common-protos
 onnx==1.16.0
 orjson
 datasets
+aiohttp>=3.12.14 # not directly required, pinned by Snyk to avoid a vulnerability

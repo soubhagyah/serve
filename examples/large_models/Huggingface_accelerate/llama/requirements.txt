@@ -1,6 +1,7 @@
-transformers>=4.38.0
+transformers>=4.53.0
 accelerate
 bitsandbytes
 scipy
 mpi4py
 optimum
+torch>=2.8.0 # not directly required, pinned by Snyk to avoid a vulnerability
